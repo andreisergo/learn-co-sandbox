@@ -20,6 +20,7 @@ music_library = [
 ]
 
 music_library.each do |library_entry|
+  
   library_entry.each do |artist_entry|
     if artist_entry.class != Array
       puts "Artist: #{artist_entry}"
@@ -30,7 +31,7 @@ music_library.each do |library_entry|
         else
           album_entry.each do |song| 
             puts "    Song: #{song}" # 4-space indentation for visual hierarchy
-          end
+          end 
         end
       end
     end
