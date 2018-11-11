@@ -5,7 +5,7 @@ playlists = [
     ["single", "single", "single"]
   ],
   ["Beyonce",
-    ["single", "single", "album", "single"]
+    ["single", "single", "album", "single", "album"]
   ],
   ["Daft Punk",
     ["album", "album", "album"]
