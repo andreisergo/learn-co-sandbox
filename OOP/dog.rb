@@ -40,9 +40,9 @@ class Dog
   
   def display_info
     puts "dog#{id}"
-    puts "   Name: #{name}"
-    puts "   Breed: #{breed}"
-    puts "   Size: #{size}"
+    puts "  Name: #{name}"
+    puts "  Breed: #{breed}"
+    puts "  Size: #{size}"
   end
   
 end
