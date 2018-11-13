@@ -30,7 +30,7 @@ class Dog
   end
   
   def display_info
-    puts "#{dog}"
+    puts "#{dog}: "
     puts name
     puts breed
     puts size
