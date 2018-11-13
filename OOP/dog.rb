@@ -5,7 +5,7 @@ class Dog
     @this_dogs_size = dog_size
   end
   
-  def name=(dog_name)
+  def param=(dog_params)
     @this_dogs_name = dog_name
   end
   
