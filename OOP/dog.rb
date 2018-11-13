@@ -1,8 +1,17 @@
 class Dog 
-  def initialize(dog_name, dog_breed, dog_size)
+  def initialize(dog_id, dog_name, dog_breed, dog_size)
+    @this_dogs_id = dog_id
     @this_dogs_name = dog_name
     @this_dogs_breed = dog_breed
     @this_dogs_size = dog_size
+  end
+  
+  def id=(dog_id)
+    @this_dogs_id = dog_id
+  end
+  
+  def id
+    @this_dogs_id
   end
   
   def name=(dog_name)
@@ -30,7 +39,7 @@ class Dog
   end
   
   def display_info
-    puts "#{dog}: "
+    puts "Dog#{id}: "
     puts name
     puts breed
     puts size
