@@ -47,5 +47,5 @@ class Dog
   
 end
 
-dog1 = Dog.new("Lassie", "Maltese", "Medium")
+dog1 = Dog.new("1", "Lassie", "Maltese", "Medium")
 dog1.display_info
