@@ -1,3 +1,5 @@
+# implementing multiple setters and getters the long way - before attr_accessor
+
 class Dog 
   def initialize(dog_id, dog_name, dog_breed, dog_size)
     @this_dogs_id = dog_id
