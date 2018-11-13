@@ -12,11 +12,8 @@ class Dog
   end
 end
 
-lassie = Dog.new 
-lassie.name = "Lassie"
+dog1 = Dog.new("Lassie")
+dog2 = Dog.new("Snoopy")
 
-random_dog = Dog.new 
-random_dog.name = "Snoopy"
-
-puts lassie.name
-puts random_dog.name
+puts dog1.name
+puts dog2.name
