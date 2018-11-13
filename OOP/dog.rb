@@ -29,9 +29,13 @@ class Dog
     @this_dogs_size
   end
   
-  def display_dog_info
+  def display_info
+    puts name
+    puts breed
+    puts size
+  end
   
 end
 
 dog1 = Dog.new("Lassie", "Maltese", "Medium")
-puts dog1.
+dog1.display_info
